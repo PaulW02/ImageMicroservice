@@ -2,7 +2,7 @@ FROM node:14
 # Set the working directory in the container
 WORKDIR /app
 
-ENV DB_HOST=vm.cloud.cbh.kth.se:2511
+ENV DB_HOST= "130.237.83.249:2511"
 ENV USERNAME=root
 ENV PASSWORD=12345679
 
